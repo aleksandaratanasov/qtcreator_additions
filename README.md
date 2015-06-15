@@ -7,7 +7,7 @@ List of additions
 ## Templates
 According to the type of template you should copy the folder containing all necessary files to /usr/share/qtcreator/templates.
 
-**Wizards**
+### Wizards
 
 See: http://doc.qt.io/qtcreator/creator-project-wizards.html
 

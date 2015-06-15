@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**************************************************************************
+**
+** This file is intended to be used as a project wizart in Qt Creator
+** It was tested on Qt Creator 2.5.0 and 2.5.7. It requires OpenCV to
+** be installed. In order to use the file copy the complete directory
+** "opencvcppapp-cmake" in /usr/share/qtcreator/templates/wizards or
+** other location according to your operating system
+**
+** Copyright (c) 2015 Aleksandar Vladimirov Atanasov
+**
+** Contact: Aleksandar Vladimirov Atanasov (redbaronqueen@gmail.com)
+**
+**
+** GNU General Public License version 2.0 Usage
+**
+** This file may be used under the terms of the GNU General Public
+** License version 2.0 as published by the Free Software Foundation and
+** appearing at https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+**
+**************************************************************************/
+-->
+
+<wizard version="1" kind="project" firstpage="10" id="S.Plain C++ (CMake)" category="I.Projects" platformIndependent="true">
+    <icon>opencv.png</icon>
+    <description>Creates a plain OpenCV C++ project using CMake</description>
+    <displayname>Plain C++ Project (CMake Build)</displayname>;
+    <displaycategory>Non-Qt Project</displaycategory>
+    <files>
+        <file source="main.cpp" openeditor="true"/>
+        <file source="CMakeLists.txt" openproject="true"/>
+    </files>
+</wizard>
